@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Tebet Echo Park</name>
+    <Style id="line-000000-1200-nodesc-normal">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.2</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-000000-1200-nodesc-highlight">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.8</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-000000-1200-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-000000-1200-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-000000-1200-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Teber echo park</name>
+      <styleUrl>#line-000000-1200-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          106.8509863,-6.2328694,0
+          106.8514154,-6.2332961,0
+          106.8525956,-6.2332961,0
+          106.852896,-6.2348532,0
+          106.8534539,-6.2347252,0
+          106.8534968,-6.2381595,0
+          106.8530248,-6.2400152,0
+          106.8540547,-6.2418283,0
+          106.8527673,-6.2422123,0
+          106.8516729,-6.2401005,0
+          106.8520592,-6.2382235,0
+          106.8525956,-6.2360264,0
+          106.8508361,-6.2344266,0
+          106.8506215,-6.2333174,0
+          106.8514584,-6.233424,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>
